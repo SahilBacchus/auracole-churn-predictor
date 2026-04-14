@@ -1,0 +1,27 @@
+
+# Dont allow any .csv files except our dataset from kaggle
+*.csv
+!sample_submission.csv
+!test.csv
+!train.csv
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Virtual environments
+venv/
+env/
+.env/
+
+
+# Private environment variables
+.env
